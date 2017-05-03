@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201705030733532_LoadTheTable.Designer.cs">
       <DependentUpon>201705030733532_LoadTheTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705030805354_ModelChange.cs" />
+    <Compile Include="Migrations\201705030805354_ModelChange.Designer.cs">
+      <DependentUpon>201705030805354_ModelChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AquariumAquaticLifeOcean.cs" />
     <Compile Include="Models\Aquariums.cs" />
@@ -69,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705030733532_LoadTheTable.resx">
       <DependentUpon>201705030733532_LoadTheTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705030805354_ModelChange.resx">
+      <DependentUpon>201705030805354_ModelChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

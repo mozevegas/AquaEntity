@@ -10,13 +10,13 @@ namespace AquaEntity.Models
     {
         public int Id { get; set; }
 
-        public int AquariumId { get; set; }
+        public int AquariumsId { get; set; }
         public Aquariums Aquariums { get; set; }
 
-        public int AquaticLifeId { get; set; }
+        public int AquaticLifesId { get; set; }
         public AquaticLifes AquaticLifes { get; set; }
 
-        public int OceanId { get; set; }
+        public int OceansId { get; set; }
         public Oceans Oceans { get; set; }
     }
 }
